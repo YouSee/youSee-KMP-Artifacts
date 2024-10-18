@@ -1,0 +1,8 @@
+framework module "networkKlib" {
+    umbrella header "networkKlib.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
