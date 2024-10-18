@@ -1,0 +1,8 @@
+framework module "mixpanelKlib" {
+    umbrella header "mixpanelKlib.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
